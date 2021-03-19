@@ -1,3 +1,3 @@
-yurf = 'hello world'
-print(yurf)
+uxqr = 'hello world'
+print(uxqr)
 

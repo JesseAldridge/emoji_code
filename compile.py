@@ -14,11 +14,9 @@ def main():
     with open(path) as f:
       text = f.read()
 
-    emoji_to_real_name = {}
     compiled_text = text
     for emoji in emojis.get(text):
-      emoji_to_real_name.setdefault(emoji, random_string())
-      compiled_text = re.sub(emoji, emoji_to_real_name[emoji], compiled_text)
+      compiled_text = re.sub(emoji, random_string(), compiled_text)
 
     filename = os.path.basename(path)
     path2 = os.path.join('compiled', filename)
