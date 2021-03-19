@@ -1,3 +1,3 @@
-mbdw = 'hello world'
-print(mbdw)
+yurf = 'hello world'
+print(yurf)
 
