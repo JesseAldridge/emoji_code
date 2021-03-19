@@ -1,0 +1,3 @@
+👋 = 'hello world'
+print(👋)
+
