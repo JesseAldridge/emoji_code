@@ -1,2 +1,2 @@
-tuft = 'hello world'
-print(tuft)
+mcmh = 'hello world'
+print(mcmh)

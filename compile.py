@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import random, re, glob, os
 
 import emojis
