@@ -18,7 +18,7 @@ def main():
 
     class ConstantToEmoji(ast.NodeTransformer):
       def visit_Constant(self, node):
-        node.value = emojis.encode(re.sub('_emoji_([a-z]+)_emoji_', ':\g<1>:', node.value))
+        node.value = emojis.encode(re.sub('_emoji_([a-z0-9_]+?)_emoji_', ':\g<1>:', node.value))
         return node
 
     tree = ConstantToEmoji().visit(tree)
