@@ -1,2 +1,2 @@
-mcmh = 'hello world'
-print(mcmh)
+_wave_ = 'hello world'
+print(_wave_)
