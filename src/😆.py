@@ -1,3 +1,3 @@
 
 def 😆():
-  return "😆😆😆"
+  return "XD"
