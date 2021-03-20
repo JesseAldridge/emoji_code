@@ -1,2 +1,4 @@
-👋 = 'hello world'
+import 😆
+
+👋 = f'{😆.😆()} hello world {😆.😆()}'
 print(👋)
