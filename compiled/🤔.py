@@ -1,3 +1,2 @@
-uxqr = 'hello world'
-print(uxqr)
-
+tuft = 'hello world'
+print(tuft)
