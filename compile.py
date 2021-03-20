@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
-
-import random, re, glob, os
+import random, re, glob, os, shutil
 
 import emojis
 
 
 def main():
-  if not os.path.exists('compiled'):
-    os.mkdir('compiled')
+  shutil.rmtree('compiled')
+  os.mkdir('compiled')
 
   for path in glob.glob('src/*.py'):
     with open(path) as f:
